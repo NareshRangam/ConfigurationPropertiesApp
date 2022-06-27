@@ -31,7 +31,7 @@ public class ConfigController {
 	@GetMapping("/message")
 	public String getMessage()
 	{
-		return message +", "+staticMessage+", "+listValues +",  "+dbValues+", "+dbSettings.getHost();
+		return message +",Updated "+staticMessage+", "+listValues +",  "+dbValues+", "+dbSettings.getHost();
 	}
 
 }
