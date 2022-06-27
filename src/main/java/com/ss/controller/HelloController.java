@@ -9,7 +9,7 @@ public class HelloController {
 	
 	@GetMapping("/example/string")
 	public ResponseEntity<String> exampleString() {
-	  return ResponseEntity.ok("String example here");
+	  return ResponseEntity.ok("String example here Updated");
 	}
 
 }
